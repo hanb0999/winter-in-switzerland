@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <title>Winter in Switzerland</title>
+    <link rel="icon" href="images/favicon.svg?v=2" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="layout-container" id="layoutContainer">
+
+        <aside class="sidebar">
+            <button class="close-trigger" id="menuClose" aria-label="Close Menu">&times;</button>
+
+            <nav class="sidebar-nav" id="sidebarNav">
+                <ul>
+                    <li><a href="#fortezza">Fortezza Bellinzona</a></li>
+                    <li><a href="#simplon">Simplon Dorf</a></li>
+                    <li><a href="#vevey">La Fourchette de Vevey</a></li>
+                    <li><a href="#bern">Bern</a></li>
+                    <li><a href="#grindelwald">Grindelwald</a></li>
+                </ul>
+            </nav>
+
+            <div class="place-details" id="placeDetails">
+                <h2 class="place-title">— Fortezza Bellinzona</h2>
+                <p class="place-description">
+                    世界遺産に登録されている城郭の一つです。高台からは街並みや山々を一望することができます。
+                </p>
+            </div>
+
+            <div class="sidebar-footer">
+                <h1>WINTER IN<br>SWITZERLAND</h1>
+                <p class="copyright">all rights reserved © 2026</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+
+            <button class="menu-trigger" id="menuToggle" aria-label="Toggle Menu">
+                <img src="images/side-button.svg" alt="Menu Toggle" class="asterisk-icon">
+            </button>
+
+            <section class="hero-section" id="heroSection">
+                <div class="mobile-hero-title">
+                    <h1>WINTER IN SWITZERLAND</h1>
+                </div>
+
+                <div class="slideshow-container">
+                    <div class="slide-sequence active type-single">
+                        <div class="panel-single">
+                            <img src="images/top/top-1.jpg" alt="Horizontal Landscape">
+                        </div>
+                    </div>
+
+                    <div class="slide-sequence type-split">
+                        <div class="panel-left">
+                            <img src="images/top/top-2.jpg" alt="Vertical Left 1">
+                        </div>
+                        <div class="panel-right">
+                            <img src="images/top/top-3.jpg" alt="Vertical Right 1">
+                        </div>
+                    </div>
+
+                    <div class="slide-sequence type-split">
+                        <div class="panel-left">
+                            <img src="images/top/top-4.jpg" alt="Vertical Left 2">
+                        </div>
+                        <div class="panel-right">
+                            <img src="images/top/top-5.JPEG" alt="Vertical Right 2">
+                        </div>
+                    </div>
+
+                    <div class="slide-sequence type-split">
+                        <div class="panel-left">
+                            <img src="images/top/top-6.JPEG" alt="Vertical Left 3">
+                        </div>
+                        <div class="panel-right">
+                            <img src="images/top/top-7.jpg" alt="Vertical Right 3">
+                        </div>
+                    </div>
+
+                    <div class="slide-sequence type-split">
+                        <div class="panel-left">
+                            <img src="images/top/top-8.jpg" alt="Vertical Left 4">
+                        </div>
+                        <div class="panel-right">
+                            <img src="images/top/top-9.JPEG" alt="Vertical Right 4">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="content-section" id="fortezza" data-title="— Fortezza Bellinzona"
+                data-desc="世界遺産に登録されている城郭の一つです。高台からは街並みや山々を一望することができます。">
+                <div class="split-grid">
+                    <div class="img-panel"><img src="images/bellizona/DSCF7677.JPG" alt="Fortezza Castle Tower"></div>
+                    <div class="img-panel"><img src="images/bellizona/IMG_5279.JPEG" alt="Fortezza Loophole View"></div>
+                </div>
+            </section>
+
+            <section class="content-section" id="simplon" data-title="— Simplon Dorf"
+                data-desc="伝統的な建物が並ぶ静かな村で、スイスらしい落ち着いた雰囲気を感じることができます。">
+                <div class="split-grid">
+                    <div class="img-panel"><img src="images/simplon/IMG_5417.JPEG" alt="Simplon Dorf 1"></div>
+                    <div class="img-panel"><img src="images/simplon/IMG_5423.JPEG" alt="Simplon Dorf 2"></div>
+                </div>
+            </section>
+
+            <section class="content-section" id="vevey" data-title="— La Fourchette de Vevey"
+                data-desc="レマン湖に突き刺さる巨大なフォークのオブジェが有名です。湖畔の景色も美しく、多くの観光客が訪れます。">
+                <div class="split-grid">
+                    <div class="img-panel"><img src="images/vevey/DSCF7720.jpg" alt="La Fourchette de Vevey 1"></div>
+                    <div class="img-panel"><img src="images/vevey/IMG_5517.JPEG" alt="La Fourchette de Vevey 2"></div>
+                </div>
+            </section>
+
+            <section class="content-section" id="bern" data-title="— Bern"
+                data-desc="中世の街並みが残る歴史ある都市です。旧市街は世界遺産に登録されています。">
+                <div class="split-grid">
+                    <div class="img-panel"><img src="images/bern/IMG_5708.JPEG" alt="Bern 1"></div>
+                    <div class="img-panel"><img src="images/bern/IMG_5744.JPEG" alt="Bern 2"></div>
+                </div>
+            </section>
+
+            <section class="content-section" id="grindelwald" data-title="— Grindelwald"
+                data-desc="アイガーをはじめとする山々に囲まれた人気の山岳リゾートです。">
+                <div class="split-grid">
+                    <div class="img-panel"><img src="images/grindelwald/DSCF7774.jpg" alt="Grindelwald 1"></div>
+                    <div class="img-panel"><img src="images/grindelwald/DSCF7778.JPG" alt="Grindelwald 2"></div>
+                </div>
+            </section>
+
+            <footer class="mobile-footer">
+                <p class="copyright">all rights reserved © 2026</p>
+            </footer>
+
+        </main>
+    </div>
+</body>
+
+</html>
